@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var miSegment: UISegmentedControl!
 
+ 
+    
     @IBOutlet weak var miImagen: UIImageView!
     @IBOutlet weak var miLabel: UILabel!
     @IBAction func procesar(sender: AnyObject) {
@@ -42,7 +44,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var miSwitch: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
-           miLabel.text = "IOS"
+        
+          miLabel.text = "IOS"
     }
 
     override func didReceiveMemoryWarning() {
